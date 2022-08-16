@@ -1,0 +1,6 @@
+[webservers]
+
+172.16.250.132  apache_package=httpd php_package=php
+172.16.250.133  apache_package=httpd2 php_package=libapache2-mod-php
+172.16.250.134  apache_package=httpd php_package=libapache2-mod-php
+
