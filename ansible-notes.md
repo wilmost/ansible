@@ -34,3 +34,16 @@ To copy sshkey:
 
 ## ansible-playbook commands
 
+ - ansible-playbook `myplaybook.yml` 
+
+ - ansible-playbook myplaybook.yml --list-tasks ; is used to list all tasks that would be executed by a play without making any changes to the remote servers. 
+
+ - ansible-playbook myplaybook.yml --list-hosts 
+
+ - ansible-playbook myplaybook.yml --start-at-task="Set Up Nginx" 
+
+ - ansible-playbook myplaybook.yml --tags=mysql,nginx
+
+
+
+
